@@ -1,0 +1,191 @@
+html body {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    background-color: black;
+    background-image: url('../img/bg2.jpg');
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+}
+
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+    background: #202020;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #008efe;
+
+    border-radius: 10px;
+
+    border: 2px solid #202020;
+
+}
+
+/* Desenho dos Campos do Formulário */
+
+
+input.form-control {
+    margin-top: 10px;
+    color: #B1ACAC;
+    font-size: 19px;
+    border: 0.5px solid;
+    border-color: #313030;
+    border-radius: 8px;
+    //box-shadow: 1px 1px 8px 1px #acb9cc;
+    background: black;
+    width: 100%;
+    height: 40px
+}
+
+
+/* Desenho do Botão de Ação */
+
+
+.btn.btn-default {
+    width: 520px;
+    height: 60px;
+    background-color: #008EFF;
+    color: white;
+    padding: 20px;
+
+
+    //border: 5px solid #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+
+}
+
+
+/* Cor do Hover Botão */
+
+
+.btn.btn-default:hover {
+    width: 520px;
+    height: 60px;
+    background-color: #ffffff;
+    color: #008EFF;
+    padding: 15px;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 13px;
+    box-shadow: 0px 0px 70px rgba(255, 255, 255, 0.325);
+}
+
+
+
+.form-control {
+    padding-left: 15px;
+}
+
+.form-group {}
+
+.tamanho {
+
+    width: 500px;
+
+}
+
+.formulario {
+    background: rgba(141, 141, 141, 0.146);
+    width: 100%;
+    padding: 40px;
+    padding-top: 50px;
+    border-radius: 3%;
+    border: solid gray 1px;
+    border-right: 1px;
+    border-bottom: 1px;
+    max-width: 510px;
+    height: 500px;
+    margin-top: 160px;
+    margin-left: 400px;
+    backdrop-filter: blur(4px);
+
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 0.9em;
+}
+
+body img {
+    width: 250px;
+
+}
+
+.bg {
+
+    height: 100%;
+    padding: 100px;
+    background-image: url('../img/bg3.jpg');
+    background-repeat: no-repeat;
+}
+
+.rn {
+    width: 600px;
+    margin-left: 800px;
+}
+
+.vendedor {
+    font-size: 20px;
+    line-height: 1.5em;
+    font-weight: 350;
+}
+
+.formulario2 {
+    padding-bottom: 150px;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #008EFF;
+}
+
+.bebas {
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 300;
+    font-size: 60px;
+    margin-bottom: 4%;
+}
+
+.text {
+    font-size: 24px;
+    padding-top: ;
+}
+
+footer {
+    background-image: linear-gradient(to right, black, #008EFF);
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+
+
+a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+}
